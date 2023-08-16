@@ -1,0 +1,24 @@
+.contactcards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    
+}
+
+
+.contact-heading{
+    font-weight: 700;
+    text-align: center;
+}
+
+.contact-one{
+    display: flex;
+    flex-direction: row;
+}
+.contact-two{
+    display: flex;
+    flex-direction: row;
+}
