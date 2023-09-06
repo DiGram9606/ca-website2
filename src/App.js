@@ -7,15 +7,18 @@ import About from "./Components/About.js"
 import WhyApply from './Components/WhyApply';
 import Roles from './Components/Roles.js'
 import Contact from './Components/Contact.js'
+import Registration from './Components/Registration';
+import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/*<Navbar />*/}
       <Hero />
       <About />
       <WhyApply />
       <Roles />
       <Contact />
+      <Registration/>
     </div>
   );
 }

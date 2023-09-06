@@ -2,7 +2,7 @@
 .roles{
     background-color: white;
     color: black;
-    padding: 2rem 3rem;
+    padding: 2rem 1rem;
 }
 
 .roles h1{
@@ -13,6 +13,7 @@
 .what-to-do{
     display: flex;
     flex: 0 0 auto;
+    flex-direction: row;
     gap: 1rem;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -55,6 +56,24 @@
     background-repeat: no-repeat;
     background-position: bottom right;
     border-radius: 1.5rem;
-    width: max-content;
+    max-width: 20%;
     color: black; 
+}
+
+@media screen and (max-width: 1000px) {
+    .card-six, .card-seven, .card-eight, .card-nine{
+         max-width: 35%;
+     }
+}
+
+@media screen and (max-width:700px){
+    .what-to-do{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-six, .card-seven, .card-eight, .card-nine{
+       min-width: 100px;
+        max-width: 80%;
+        align-self: center;
+    }
 }

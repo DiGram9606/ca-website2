@@ -1,24 +1,15 @@
-.contactcards{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    color: black;
-    
-}
-
-
-.contact-heading{
-    font-weight: 700;
+.contact{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
     text-align: center;
 }
-
-.contact-one{
-    display: flex;
-    flex-direction: row;
+.contact h1{
+    font-weight: 700;
+    text-align: center;
+    margin-top:0;
 }
-.contact-two{
-    display: flex;
-    flex-direction: row;
+
+.styling{
+    margin: 0.25rem auto 1rem auto;
+    text-align: center;
 }
