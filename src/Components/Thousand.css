@@ -1,0 +1,33 @@
+.th{
+    background-color: #F7F3FF;
+    padding: 1.7rem;
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+    margin-left: 11rem;
+    margin-right: 11rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgg{ 
+ max-width: 100%;
+ max-height: 100%;
+
+ width: 7rem;
+ height: 7rem;
+}
+
+.imgc{
+    max-width: 100%;
+    max-height: 100%;
+   
+    width: 7rem;
+    height: 7rem;
+}
+
+.space{
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
