@@ -1,10 +1,9 @@
-
-
 .NavbarComponents{
     font-size: 1.2rem;
    /* background-color: aquamarine;*/
     margin: 0;
     display: flex;
+    margin-bottom: 3rem;
 }
 
 .menu-icon{
@@ -23,6 +22,7 @@
     margin-right: auto;
     width: 100%;
     margin: 1.8rem 0rem ;
+    
 }
 
 .ham-menu-inactive{
@@ -36,6 +36,12 @@
     justify-content: flex-end;
    /* border: 2px solid yellow;*/
     padding: 0.1rem;
+    
+}
+
+.ham-menu-invisible{
+    display: none;
+    
 }
 
 .navbar-links{

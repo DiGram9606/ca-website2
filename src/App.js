@@ -15,14 +15,14 @@ import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      {/*<Navbar />*/}
+      <Navbar />
       <Hero />
-      <About />
-      <Thousand />
+     {/* <About /> 
+      <Thousand />*/}
       <WhyApply />
       <Roles />
       <Contact />
-      <WhoApply />
+      {/*<WhoApply />*/}
       <Registration/>
       <WithLove />
     </div>
