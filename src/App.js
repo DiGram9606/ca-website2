@@ -1,6 +1,5 @@
 
 import './App.css';
-import React from "react"
 import Navbar from "./Components/Navbar.js"
 import Hero from "./Components/Hero.js"
 import About from "./Components/About.js"
@@ -11,21 +10,40 @@ import Registration from './Components/Registration.js';
 import Thousand from './Components/Thousand.js'
 import WhoApply from './Components/WhoApply.js';
 import WithLove from './Components/WithLove.js';
-import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from "react-router-dom";
+import Home from "./Home.js"
+
+
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-     {/* <About /> 
-      <Thousand />*/}
-      <WhyApply />
-      <Roles />
-      <Contact />
-      {/*<WhoApply />*/}
-      <Registration/>
-      <WithLove />
-    </div>
+    
+      <div className="App">
+        {/* <Routes>
+        <Route path="/" element={<div><Home /> */}
+                                {/* <Hero /> */}
+                                {/* <About /> */}
+                                {/* <Thousand /> */}
+                                {/* <WhyApply />
+                                <Roles />
+                                <Contact /> */}
+                                {/* <WhoApply /> */}
+                              
+                                {/* <WithLove /> */}
+                                
+                                {/* </div>}> */}
+        {/* <Route path="/register" element={<Registration />} /> */}
+        {/* </Route>
+        </Routes> */}
+        <Home />
+        
+
+      </div>
+    
   );
 }
 

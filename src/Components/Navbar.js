@@ -1,10 +1,12 @@
 import React from "react"
 import "./Navbar.css"
-
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function Navbar(){
     const [hamMenu, toggleHamMenu]=React.useState(false)
     
+const navigate = useNavigate();
+
     function handleHamClick(){
         toggleHamMenu(old=>!old)
     }
@@ -53,7 +55,8 @@ export default function Navbar(){
                             </div>
                             <div className={hamMenu?"hamCont":""}>
                             <li>
-                                <a className="apply-button" href="/#">Apply Now</a>
+                                <Link to="/register" className="apply-button" href="/#">Apply Now</Link>
+                                {/* <button onClick={() => navigate("/register")}>Apply Now</button> */}
                             </li>
                             </div>
             </ul>

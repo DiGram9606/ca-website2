@@ -13,3 +13,9 @@
     margin: 0.25rem auto 1rem auto;
     text-align: center;
 }
+
+.contact-one {
+    display: flex;
+    flex-direction: column;
+    
+}

@@ -1,7 +1,7 @@
 import React from "react"
 import "./Registration.css"
 import App from "../App.js"
-import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Link, Routes, Route, useNavigate } from "react-router-dom";
 export default function Registration(){
     let [formData, updateFormData]=React.useState({
         name:"",
@@ -11,6 +11,8 @@ export default function Registration(){
         personalAddress:"",
         collegeAddress:"",
     })
+
+    const navigate = useNavigate();
 
     React.useEffect(()=>{
         //console.log(formData)
@@ -36,6 +38,7 @@ export default function Registration(){
                 personalAddress:"",
                 collegeAddress:"",
             })
+            navigate("/")
             
         }}>X</button></h1>
         <div className="registration-container">
